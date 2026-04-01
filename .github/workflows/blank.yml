@@ -1,11 +1,12 @@
 name: DevOps 1st pipeline
- on: 
- push: 
 
- jobs: 
- build:
-   runs-on: ubuntu-latest
+on:
+  push:
 
-   steps:
-   -name: Print message 
-   run: echo "DEVOPS successfull"
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print message
+        run: echo "DEVOPS successful"
