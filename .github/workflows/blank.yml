@@ -1,0 +1,11 @@
+name : DevOps 1st pipeline
+ on: 
+ Push: 
+
+ jobs: 
+ build:
+   run-on: ununtu-latest
+
+   steps:
+   -name: Print message 
+   run: echo "DEVOPS successfull"
