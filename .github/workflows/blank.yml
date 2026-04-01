@@ -1,10 +1,10 @@
-name : DevOps 1st pipeline
+name: DevOps 1st pipeline
  on: 
- Push: 
+ push: 
 
  jobs: 
  build:
-   run-on: ununtu-latest
+   runs-on: ubuntu-latest
 
    steps:
    -name: Print message 
